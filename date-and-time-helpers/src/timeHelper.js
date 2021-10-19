@@ -1,4 +1,4 @@
 const timeHelper = ({startDate, endDate}) => {
-	return 'November11'
+	return 'November'
 }
 
