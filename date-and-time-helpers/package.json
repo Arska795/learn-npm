@@ -5,11 +5,11 @@
   "exports": {
     ".": {
       "require": "./lib/timeHelper.js",
-      "import": "./src/timeHelper.js",
-      "default": "./src/timeHelper.js"
+      "import": "./src/timeHelper.mjs",
+      "default": "./src/timeHelper.mjs"
     }
   },
-  "module": "src/timeHelper.js",
+  "module": "src/timeHelper.mjs",
   "scripts": {
     "clean": "rimraf lib",
     "build": "babel src --out-dir lib",

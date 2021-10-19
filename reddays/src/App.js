@@ -25,17 +25,16 @@ function App() {
 			{/*	Component goes here */}
 			<div className="tests">
 				<TestLink startDate="2021-08-01" endDate="2021-08-31" expected="August" onClick={handleTest} />
-				<TestLink startDate="2021-05-01" endDate="2021-05-30" expected="May" onClick={handleTest} />
-				<TestLink startDate="2019-11-01" endDate="2019-11-30" expected="November 2019" onClick={handleTest} />
-				<TestLink startDate="2018-08-01" endDate="2018-08-31" expected="August 2018"  onClick={handleTest} />
+				<TestLink startDate="2021-05-01" endDate="2021-05-31" expected="May" onClick={handleTest} />
 				<TestLink startDate="2021-01-01" endDate="2021-12-31" expected="2021"  onClick={handleTest} />
 				<TestLink startDate="2018-01-01" endDate="2018-12-31" expected="2018"  onClick={handleTest} />
 
+				<TestLink startDate="2019-11-01" endDate="2019-11-30" expected="November 2019" onClick={handleTest} color="red" />
+				<TestLink startDate="2018-08-01" endDate="2018-08-31" expected="August 2018"  onClick={handleTest} color="red" />
 				<TestLink startDate="2021-07-05" endDate="2021-08-20" expected="5 Jul - 20 Aug" onClick={handleTest} color="red" />
 				<TestLink startDate="2021-01-01" endDate="2021-05-30" expected="1 Jan - 30 May" onClick={handleTest} color="red" />
 				<TestLink startDate="2019-11-10" endDate="2019-11-29" expected="10 Nov 2019 - 29 Nov 2019" onClick={handleTest} color="red" />
 				<TestLink startDate="2021-10-18" endDate="2021-10-24" expected="W42"  onClick={handleTest} color="red" />
-				<TestLink startDate="2021-01-01" endDate="2021-12-31" expected="2021"  onClick={handleTest} color="red" />
 			</div>
 			<div className="day-list"></div>
 		</div>
