@@ -1,5 +1,5 @@
 # NPM
-Work in groups of 2 and follow the instructions below step by step and make sure to write down answers to any questions marked with a :camel:. Write down your answers inside this README.md file and make sure to commit (to the clone of your github fork). These questions will be discussed during class and they will also be part of the hand in.
+Work in groups of 2 and follow the instructions below step by step and make sure to write down answers to any questions marked with a :camel:. Write down your answers inside this README.md file. These questions will be discussed during class.
 
 ### In this lab we will learn:
 
