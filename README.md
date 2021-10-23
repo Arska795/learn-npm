@@ -202,7 +202,7 @@ You've made it to check point 2! We'll go through the assignment so far shortly.
 
 
 # Finish
-Commit your code and push it to your fork on github (it will be part of a hand-in later). Also make sure to not delete your npm package (it will also be part of hand-in later).
+This will not be part of a hand-in so if you want you can delete your npm package and your fork of this repo if you want.
 
 :camel::camel::camel::camel::camel::camel::camel: Good job!!! :camel::camel::camel::camel::camel::camel::camel:
 
